@@ -1,7 +1,12 @@
-// import 
+import Shape from "./shape";
 
-// declare class
+// import
 
+class Circle extends Shape {
+  constructor(color) {
+    super(color);
+  }
+  calculateArea() {}
+}
 
-// export
-
+export default Circle;
